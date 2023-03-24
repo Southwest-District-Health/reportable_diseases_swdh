@@ -6,7 +6,7 @@ source("get_data.R")
 
 
 # Import Data -------------------------------------------------------------
-epi_data <- read_excel(get_data_path(data_name = "All Disease Data.xlsx"))
+epi_data <- read_excel(point_data_path(data_name = "All Disease Data.xlsx"))
 
 
 # Tidy Data ---------------------------------------------------------------
@@ -46,29 +46,23 @@ tidy_data <- epi_data %>%
   group_by(condition, county, year, month) %>% 
   summarize('n' = n())
 
-full_data <- tidy_data
+# group the data by disease, place, year, and month, and calculate the sum of cases
+full_data <- tidy_data %>% 
+  group_by(condition, county, year, month) %>% 
+  summarize(n = sum(n)) %>% 
+  ungroup()
 
-for (disease in unique(tidy_data$condition)){
-  for (place in unique(tidy_data$county)){
-    for (this_year in unique(tidy_data$year)){
-      for (this_month in unique(tidy_data$month)){
-        print(paste('Checking', disease, place, this_year, this_month))
-        if (nrow(filter(tidy_data, 
-                        condition == disease & 
-                        county == place & 
-                        year == this_year &
-                        month == this_month)) == 0) {
-          missing_row <- tibble('condition' = disease, 
-                                'county' = place, 
-                                'year' = this_year, 'month' = this_month, 
-                                'n' = 0)
-        full_data  <- bind_rows(full_data, missing_row)
-          
-        }
-      }
-    }
-  }
-}
+combinations <- expand.grid(unique(tidy_data$condition), 
+                            unique(tidy_data$county), 
+                            unique(tidy_data$year), 
+                            unique(tidy_data$month))
+colnames(combinations) <- c('condition', 'county', 'year', 'month')
+
+#merge with the grouped data to fill in missing values with zeros
+full_data <- full_data %>% 
+  right_join(combinations, by = c('condition', 'county', 'year', 'month')) %>% 
+  replace_na(list(n = 0)) %>% 
+  select(condition, county, year, month, n)
 # Export Data ------------------------------------------------------------
 
 # Write data to CSV

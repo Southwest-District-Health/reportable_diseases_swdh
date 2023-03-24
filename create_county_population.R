@@ -6,14 +6,14 @@ source('get_data.R')
 # Import Data -------------------------------------------------------------
 
 # Import county census estimates from 2010 to 2019
-county_pop_1019 <- get_data_path(
+county_pop_1019 <- point_data_path(
   data_type = "raw",
   data_name = "co-est2019-annres-16.xlsx"
 ) %>%
   read_excel(range = "A4:M49")
 
 # Import county census from 2020
-county_pop_2021 <- get_data_path(
+county_pop_2021 <- point_data_path(
   data_type = "raw",
   data_name = "co-est2021-pop-16.xlsx"
 ) %>%

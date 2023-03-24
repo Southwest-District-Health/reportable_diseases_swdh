@@ -23,7 +23,6 @@ The first step to updating the app will be downloading the data from NBS and sav
 Second, based on the data you downloaded from NBS, make sure that either of the two co-est spreadsheets have populations for the years you are interested in. If not, if the year that is missing is after 2021, the population from 2021 will be used. I would make sure that you are okay with this or find an updated county population estimates spreadsheet from the census website. 
 
 Third, you will want to create the count data set from the `All Disease Data.xlsx`. To do this, run the code in `create_count_dataset.R`. This will create an excel spreadsheet called `disease_count.csv` in the `data` folder. 
-
 Fourth, you will want to create the county population data set. Run the code in `create_county_population.R` to do so. 
 
 Fifth, open the `app.R` file. Then, check to make sure it works by using ctrl+shift+enter or by clicking "run app" button at the top of Rstudio. Click through the different tabs, change the years and so on and make sure the plots respond appropriately. Also make sure the years that you can click on on the left are what you expected. They are pulled from the All Disease file, so if you downloaded years you weren't interested in, they will show up here. 

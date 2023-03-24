@@ -1,7 +1,4 @@
-
-# Update renv.lock --------------------------------------------------------
-
-renv::snapshot()
+library(here)
 
 # Style code --------------------------------------------------------------
 
@@ -17,7 +14,7 @@ now_time <- lubridate::now(tzone = "America/Denver")
 now_string <- format(now_time, "%Y-%m-%d %H:%M:%S %Z")
 
 # Find the line containing "last_updated"
-update_line <- which(app_lines == "last_updated")[1]
+update_line <- grep("last_updated <-", app_lines)
 
 # Modify the line to include the current date time
 app_lines[update_line] <- sprintf('last_updated <- "%s"', now_string)

@@ -8,7 +8,7 @@ library(ggdark)
 library(ggiraph)
 library(shinyWidgets)
 
-last_updated <- "2023-03-16 09:20:35 MDT"
+last_updated <- "2023-03-24 10:29:22 MDT"
 
 # App parameters ----------------------------------------------------------
 
@@ -140,8 +140,6 @@ server <- function(input, output, session) {
       ) %>%
       left_join(county_map_data, multiple = "all")
   })
-
-  disease_map_data
 
   # Set up data for season count plot
   season_count_data <- reactive({

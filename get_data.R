@@ -1,3 +1,5 @@
+library(tcltk)
+
 get_data_path <- function(
     data_type = "processed",
     data_name = "example_data.csv",
@@ -41,3 +43,39 @@ get_data_path <- function(
   setwd(start_path) # change working directory back to where we started
   return(data_file_path) # return the file path to data
 }
+
+point_data_path <- function(
+    data_type = "processed",
+    data_name = "example_data.csv") {
+  # Code For function begins here
+  start_path <- getwd()
+  
+  # Data type means folder names we have created that house data
+  if (data_type == "processed") {
+    path_search <- "./processed_data"
+  } else if (data_type == "raw") {
+    path_search <- "./raw_data"
+  } else {
+    stop("data_type not recognized. Please specify either 'processed' or 'raw'.")
+  }
+  
+  print('Opening dialog box.')
+
+  general_path <- tk_choose.dir(caption = 'Choose the General folder')
+  
+  setwd(general_path)
+  
+  print('Closed diaglog box')
+  
+  setwd(path_search) # change directory to data directory we were looking for
+  
+  file_present <- sum(list.files() == data_name) # Is file present?
+  
+  if (file_present > 0) {
+    data_file_path <- normalizePath(data_name) # Returns file's absolute path
+  } else {
+    stop(paste0(data_name, " not found. Please make sure you are looking for the right file in the right directory."))
+  }
+  setwd(start_path) # change working directory back to where we started
+  return(data_file_path) # return the file path to data
+} 
