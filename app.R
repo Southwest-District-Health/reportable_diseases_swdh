@@ -173,9 +173,9 @@ server <- function(input, output, session) {
 
   # create map of district with counts of diseases
   plot <- reactive({
-    ggplot(disease_map_data(), data_id = county_name) +
+    ggplot(disease_map_data(), ) +
       geom_polygon_interactive(
-        aes(
+        aes(data_id = county_name,
           x = long,
           y = lat,
           fill = rate,
@@ -205,7 +205,13 @@ server <- function(input, output, session) {
   })
 
   output$map_plot <- renderggiraph({
-    girafe(ggobj = plot(), width_svg = 6, height_svg = 8)
+    plot <- girafe(ggobj = plot(), width_svg = 6, height_svg = 8)
+    plot <- girafe_options(
+      plot, 
+      opts_hover(
+        css = 'stroke-width:5;'
+      )
+    )
   })
 
   # Get definition of disease
