@@ -8,7 +8,7 @@ library(ggdark)
 library(ggiraph)
 library(shinyWidgets)
 
-last_updated <- "2023-03-24 10:29:22 MDT"
+last_updated <- "2023-03-27 13:26:47 MDT"
 
 # App parameters ----------------------------------------------------------
 
@@ -175,7 +175,8 @@ server <- function(input, output, session) {
   plot <- reactive({
     ggplot(disease_map_data(), ) +
       geom_polygon_interactive(
-        aes(data_id = county_name,
+        aes(
+          data_id = county_name,
           x = long,
           y = lat,
           fill = rate,
@@ -207,9 +208,9 @@ server <- function(input, output, session) {
   output$map_plot <- renderggiraph({
     plot <- girafe(ggobj = plot(), width_svg = 6, height_svg = 8)
     plot <- girafe_options(
-      plot, 
+      plot,
       opts_hover(
-        css = 'stroke-width:5;'
+        css = "stroke-width:5;"
       )
     )
   })

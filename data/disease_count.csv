@@ -95,7 +95,7 @@ Campylobacteriosis,canyon,2022,11,5
 Campylobacteriosis,canyon,2022,12,7
 Campylobacteriosis,canyon,2023,1,5
 Campylobacteriosis,canyon,2023,2,8
-Campylobacteriosis,canyon,2023,3,3
+Campylobacteriosis,canyon,2023,3,4
 Campylobacteriosis,gem,2017,1,1
 Campylobacteriosis,gem,2017,6,2
 Campylobacteriosis,gem,2017,8,1
@@ -152,7 +152,7 @@ Campylobacteriosis,owyhee,2022,8,1
 Campylobacteriosis,owyhee,2022,10,2
 Campylobacteriosis,owyhee,2022,11,2
 Campylobacteriosis,owyhee,2023,1,1
-Campylobacteriosis,owyhee,2023,3,1
+Campylobacteriosis,owyhee,2023,3,2
 Campylobacteriosis,payette,2017,4,2
 Campylobacteriosis,payette,2017,6,3
 Campylobacteriosis,payette,2017,7,1
@@ -230,7 +230,7 @@ Chlamydia trachomatis infection,adams,2022,5,2
 Chlamydia trachomatis infection,adams,2022,10,2
 Chlamydia trachomatis infection,adams,2022,11,3
 Chlamydia trachomatis infection,adams,2023,2,1
-Chlamydia trachomatis infection,adams,2023,3,1
+Chlamydia trachomatis infection,adams,2023,3,3
 Chlamydia trachomatis infection,canyon,2017,1,51
 Chlamydia trachomatis infection,canyon,2017,2,107
 Chlamydia trachomatis infection,canyon,2017,3,65
@@ -277,7 +277,7 @@ Chlamydia trachomatis infection,canyon,2020,7,105
 Chlamydia trachomatis infection,canyon,2020,8,114
 Chlamydia trachomatis infection,canyon,2020,9,102
 Chlamydia trachomatis infection,canyon,2020,10,85
-Chlamydia trachomatis infection,canyon,2020,11,76
+Chlamydia trachomatis infection,canyon,2020,11,77
 Chlamydia trachomatis infection,canyon,2020,12,86
 Chlamydia trachomatis infection,canyon,2021,1,84
 Chlamydia trachomatis infection,canyon,2021,2,98
@@ -305,7 +305,7 @@ Chlamydia trachomatis infection,canyon,2022,11,297
 Chlamydia trachomatis infection,canyon,2022,12,131
 Chlamydia trachomatis infection,canyon,2023,1,20
 Chlamydia trachomatis infection,canyon,2023,2,25
-Chlamydia trachomatis infection,canyon,2023,3,87
+Chlamydia trachomatis infection,canyon,2023,3,180
 Chlamydia trachomatis infection,gem,2017,1,4
 Chlamydia trachomatis infection,gem,2017,2,6
 Chlamydia trachomatis infection,gem,2017,3,4
@@ -373,7 +373,7 @@ Chlamydia trachomatis infection,gem,2022,11,6
 Chlamydia trachomatis infection,gem,2022,12,5
 Chlamydia trachomatis infection,gem,2023,1,2
 Chlamydia trachomatis infection,gem,2023,2,1
-Chlamydia trachomatis infection,gem,2023,3,3
+Chlamydia trachomatis infection,gem,2023,3,7
 Chlamydia trachomatis infection,owyhee,2017,1,4
 Chlamydia trachomatis infection,owyhee,2017,2,4
 Chlamydia trachomatis infection,owyhee,2017,3,3
@@ -437,6 +437,7 @@ Chlamydia trachomatis infection,owyhee,2022,10,2
 Chlamydia trachomatis infection,owyhee,2022,11,7
 Chlamydia trachomatis infection,owyhee,2022,12,3
 Chlamydia trachomatis infection,owyhee,2023,1,1
+Chlamydia trachomatis infection,owyhee,2023,3,1
 Chlamydia trachomatis infection,payette,2017,1,2
 Chlamydia trachomatis infection,payette,2017,2,20
 Chlamydia trachomatis infection,payette,2017,3,10
@@ -507,7 +508,7 @@ Chlamydia trachomatis infection,payette,2022,11,15
 Chlamydia trachomatis infection,payette,2022,12,8
 Chlamydia trachomatis infection,payette,2023,1,1
 Chlamydia trachomatis infection,payette,2023,2,2
-Chlamydia trachomatis infection,payette,2023,3,1
+Chlamydia trachomatis infection,payette,2023,3,6
 Chlamydia trachomatis infection,washington,2017,1,1
 Chlamydia trachomatis infection,washington,2017,2,1
 Chlamydia trachomatis infection,washington,2017,3,3
@@ -568,7 +569,7 @@ Chlamydia trachomatis infection,washington,2022,10,4
 Chlamydia trachomatis infection,washington,2022,11,8
 Chlamydia trachomatis infection,washington,2022,12,3
 Chlamydia trachomatis infection,washington,2023,1,1
-Chlamydia trachomatis infection,washington,2023,3,3
+Chlamydia trachomatis infection,washington,2023,3,6
 Cryptosporidiosis,adams,2019,11,1
 Cryptosporidiosis,canyon,2017,1,2
 Cryptosporidiosis,canyon,2017,7,1
@@ -712,6 +713,7 @@ Giardiasis,gem,2021,11,2
 Giardiasis,gem,2022,4,1
 Giardiasis,gem,2022,8,1
 Giardiasis,owyhee,2019,10,1
+Giardiasis,owyhee,2023,3,1
 Giardiasis,payette,2017,9,1
 Giardiasis,payette,2017,12,1
 Giardiasis,payette,2018,10,1
@@ -772,7 +774,7 @@ Gonorrhea,canyon,2020,7,24
 Gonorrhea,canyon,2020,8,33
 Gonorrhea,canyon,2020,9,19
 Gonorrhea,canyon,2020,10,22
-Gonorrhea,canyon,2020,11,24
+Gonorrhea,canyon,2020,11,23
 Gonorrhea,canyon,2020,12,24
 Gonorrhea,canyon,2021,1,10
 Gonorrhea,canyon,2021,2,33
@@ -799,7 +801,7 @@ Gonorrhea,canyon,2022,11,16
 Gonorrhea,canyon,2022,12,5
 Gonorrhea,canyon,2023,1,15
 Gonorrhea,canyon,2023,2,10
-Gonorrhea,canyon,2023,3,10
+Gonorrhea,canyon,2023,3,15
 Gonorrhea,gem,2017,3,1
 Gonorrhea,gem,2017,5,1
 Gonorrhea,gem,2017,7,1
@@ -965,7 +967,7 @@ Gonorrhea,washington,2023,1,3
 "Group A Streptococcus, invasive",canyon,2021,9,1
 "Group A Streptococcus, invasive",canyon,2021,10,1
 "Group A Streptococcus, invasive",canyon,2021,11,2
-"Group A Streptococcus, invasive",canyon,2022,2,2
+"Group A Streptococcus, invasive",canyon,2022,2,1
 "Group A Streptococcus, invasive",canyon,2022,4,1
 "Group A Streptococcus, invasive",canyon,2022,5,1
 "Group A Streptococcus, invasive",canyon,2022,6,1
@@ -1354,7 +1356,7 @@ Hepatitis B,washington,2019,11,1
 "Hepatitis C, chronic",gem,2022,8,2
 "Hepatitis C, chronic",gem,2022,10,1
 "Hepatitis C, chronic",gem,2022,12,4
-"Hepatitis C, chronic",gem,2023,3,1
+"Hepatitis C, chronic",gem,2023,3,2
 "Hepatitis C, chronic",owyhee,2017,2,2
 "Hepatitis C, chronic",owyhee,2017,3,1
 "Hepatitis C, chronic",owyhee,2017,4,1
@@ -1484,6 +1486,7 @@ Hepatitis B,washington,2019,11,1
 "Hepatitis C, chronic",washington,2022,6,1
 "Hepatitis C, chronic",washington,2022,11,2
 "Hepatitis C, chronic",washington,2023,1,3
+"Hepatitis C, chronic",washington,2023,3,2
 Legionellosis,adams,2019,3,1
 Legionellosis,canyon,2017,6,1
 Legionellosis,canyon,2017,8,1
@@ -1524,6 +1527,7 @@ Mumps,canyon,2022,10,1
 "Neisseria meningitidis, invasive (Mening. disease)",canyon,2019,5,1
 "Neisseria meningitidis, invasive (Mening. disease)",canyon,2019,11,1
 "Neisseria meningitidis, invasive (Mening. disease)",payette,2017,12,1
+Noroviruses,adams,2023,3,1
 Noroviruses,canyon,2017,2,2
 Noroviruses,canyon,2017,4,1
 Noroviruses,canyon,2017,5,7
@@ -1558,7 +1562,7 @@ Noroviruses,canyon,2022,10,1
 Noroviruses,canyon,2022,12,2
 Noroviruses,canyon,2023,1,1
 Noroviruses,canyon,2023,2,1
-Noroviruses,canyon,2023,3,1
+Noroviruses,canyon,2023,3,4
 Noroviruses,gem,2017,12,5
 Noroviruses,gem,2022,2,8
 Noroviruses,gem,2022,4,8
@@ -1774,7 +1778,7 @@ Respiratory syncytial virus (RSV),canyon,2022,11,310
 Respiratory syncytial virus (RSV),canyon,2022,12,296
 Respiratory syncytial virus (RSV),canyon,2023,1,92
 Respiratory syncytial virus (RSV),canyon,2023,2,24
-Respiratory syncytial virus (RSV),canyon,2023,3,4
+Respiratory syncytial virus (RSV),canyon,2023,3,5
 Respiratory syncytial virus (RSV),gem,2017,1,13
 Respiratory syncytial virus (RSV),gem,2017,2,8
 Respiratory syncytial virus (RSV),gem,2017,3,3
@@ -1914,7 +1918,7 @@ Respiratory syncytial virus (RSV),washington,2023,3,1
 "S. aureus, coag+, meth- or oxi- resistant (MRSA)",canyon,2022,12,2
 "S. aureus, coag+, meth- or oxi- resistant (MRSA)",canyon,2023,1,2
 "S. aureus, coag+, meth- or oxi- resistant (MRSA)",canyon,2023,2,1
-"S. aureus, coag+, meth- or oxi- resistant (MRSA)",canyon,2023,3,1
+"S. aureus, coag+, meth- or oxi- resistant (MRSA)",canyon,2023,3,3
 "S. aureus, coag+, meth- or oxi- resistant (MRSA)",gem,2018,3,1
 "S. aureus, coag+, meth- or oxi- resistant (MRSA)",gem,2019,1,1
 "S. aureus, coag+, meth- or oxi- resistant (MRSA)",gem,2019,6,1
@@ -2006,6 +2010,7 @@ Salmonellosis,canyon,2022,9,3
 Salmonellosis,canyon,2022,11,3
 Salmonellosis,canyon,2022,12,1
 Salmonellosis,canyon,2023,2,3
+Salmonellosis,canyon,2023,3,5
 Salmonellosis,gem,2017,11,1
 Salmonellosis,gem,2017,12,1
 Salmonellosis,gem,2018,8,2
@@ -15113,7 +15118,6 @@ Pneumocystis pneumonia (PCP),canyon,2023,3,0
 "Q fever, Acute",canyon,2023,3,0
 Rabies PEP,canyon,2023,3,0
 Relapsing Fever (tick and louse-borne),canyon,2023,3,0
-Salmonellosis,canyon,2023,3,0
 Shiga toxin-producing Escherichia coli (STEC),canyon,2023,3,0
 Shigellosis,canyon,2023,3,0
 Spotted Fever Rickettsiosis,canyon,2023,3,0
@@ -15192,7 +15196,6 @@ Hantavirus pulmonary syndrome,washington,2023,3,0
 "Hepatitis A, acute",washington,2023,3,0
 Hepatitis B,washington,2023,3,0
 "Hepatitis C, Acute",washington,2023,3,0
-"Hepatitis C, chronic",washington,2023,3,0
 Legionellosis,washington,2023,3,0
 Listeriosis,washington,2023,3,0
 Lyme disease,washington,2023,3,0
@@ -15245,7 +15248,6 @@ Lyme disease,adams,2023,3,0
 Malaria,adams,2023,3,0
 Mumps,adams,2023,3,0
 "Neisseria meningitidis, invasive (Mening. disease)",adams,2023,3,0
-Noroviruses,adams,2023,3,0
 Pertussis,adams,2023,3,0
 Pneumocystis pneumonia (PCP),adams,2023,3,0
 "Q fever, Acute",adams,2023,3,0
@@ -15315,13 +15317,11 @@ Yersiniosis (non-pestis),gem,2023,3,0
 "Amebiasis, NOS",owyhee,2023,3,0
 Aseptic meningitis,owyhee,2023,3,0
 "Botulism, infant",owyhee,2023,3,0
-Chlamydia trachomatis infection,owyhee,2023,3,0
 Cryptosporidiosis,owyhee,2023,3,0
 Dengue,owyhee,2023,3,0
 "Encephalitis, viral or aseptic",owyhee,2023,3,0
 Extraordinary occurrence of illness,owyhee,2023,3,0
 "Foodborne Illness, NOS",owyhee,2023,3,0
-Giardiasis,owyhee,2023,3,0
 Gonorrhea,owyhee,2023,3,0
 "Group A Streptococcus, invasive",owyhee,2023,3,0
 HIV or AIDS,owyhee,2023,3,0
