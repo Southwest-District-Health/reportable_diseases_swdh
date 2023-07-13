@@ -173,7 +173,7 @@ server <- function(input, output, session) {
 
   # create map of district with counts of diseases
   plot <- reactive({
-    ggplot(disease_map_data(), ) +
+    ggplot(disease_map_data()) +
       geom_polygon_interactive(
         aes(
           data_id = county_name,
@@ -185,7 +185,7 @@ server <- function(input, output, session) {
           tooltip = sprintf(
             "Cumulative incidence rate per 10,000: %s\nCounty: %s",
             ifelse(count < 5, "Count < 5", as.character((round(rate, digits = 2)))), str_to_sentence(county_name)
-          ),
+          )
         ),
         linewidth = .75, hover_nearest = TRUE
       ) +
