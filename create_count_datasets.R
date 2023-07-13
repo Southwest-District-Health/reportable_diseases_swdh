@@ -19,6 +19,9 @@ epi_data$Condition[epi_data$Condition == "Salmonellosis - prior to 2018" | epi_d
 # Combine Hepatitis B types
 epi_data$Condition[epi_data$Condition == "Hepatitis B virus infection, Chronic" | epi_data$Condition == "Hepatitis B, acute"] <- "Hepatitis B"
 
+#Combine TB types together
+epi_data$Condition[epi_data$Condition == "Tuberculosis" | epi_data$Condition == "Tuberculosis (2020 RVCT)"] <- 'Tuberculosis'
+
 # Create vector of counties to include in table
 list_of_counties <- c(
   "adams",
