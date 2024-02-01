@@ -8,7 +8,7 @@ library(ggdark)
 library(ggiraph)
 library(shinyWidgets)
 
-last_updated <- "2023-06-12 16:18:45 MDT"
+last_updated <- "2024-02-01 16:19:14 MST"
 
 # App parameters ----------------------------------------------------------
 

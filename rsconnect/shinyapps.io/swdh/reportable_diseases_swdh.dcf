@@ -5,7 +5,5 @@ account: swdh
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8578668
-bundleId: 7336456
+bundleId: 8208876
 url: https://swdh.shinyapps.io/reportable_diseases_swdh/
-when: 1686608350.50982
-lastSyncTime: 1686608350.50983
