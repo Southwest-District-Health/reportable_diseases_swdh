@@ -1,5 +1,17 @@
 library(here)
 
+# Create Count Data -------------------------------------------------------
+print('Creating count data set')
+source('create_count_datasets.R')
+print('Creating count data set complete')
+
+# Create County Population Data -------------------------------------------
+print('Creating County Population data')
+source('create_county_population.R')
+
+# renv snapshot -----------------------------------------------------------
+renv::snapshot()
+
 # Style code --------------------------------------------------------------
 
 styler::style_file(here('app.R'))

@@ -71,3 +71,5 @@ full_data <- full_data %>%
 # Write data to CSV
 write_csv(full_data, here('data', 'disease_count.csv'))
 
+
+
